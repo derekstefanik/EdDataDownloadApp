@@ -19,7 +19,7 @@ library(shinyFiles)
 
 server <- function(input, output) {
 
-  roots =  c(wd = '~/Desktop/Anemones/filedownloader/')
+  roots =  c(wd = '..')
 
   shinyFileChoose(input, 'files', 
                   roots =  roots, 
