@@ -1,7 +1,7 @@
 library(shiny)
 library(shinyFiles)
 
-ui <- navbarPage("Downloads",
+navbarPage("Downloads",
            
            # set navbar                 
            tabPanel("E. lineata",
