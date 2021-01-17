@@ -19,7 +19,7 @@ library(shinyFiles)
 
 server <- function(input, output) {
 
-  roots =  c(wd = '..')
+  roots =  c(wd = '.')
 
   shinyFileChoose(input, 'files', 
                   roots =  roots, 
